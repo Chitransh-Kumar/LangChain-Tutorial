@@ -2,12 +2,12 @@
 
 There are total 6 components in LangChain. These are:
 
-- 1. Models.
-- 2. Prompts.
-- 3. Chains.
-- 4. Memory.
-- 5. Indexes.
-- 6. Agents.
+-  Models.
+-  Prompts.
+-  Chains.
+-  Memory.
+-  Indexes.
+-  Agents.
 
 ## 1. Models:
 
@@ -38,7 +38,7 @@ Components: Document loader, Text splitter, vector stores, Retreivers.
 
 Types of memory:
 
-- 1. Conversation buffer memory.
-- 2. Conversation buffer window memory.
-- 3. Summarization-based memory.
-- 4. Custom memory.
+-  Conversation buffer memory.
+-  Conversation buffer window memory.
+-  Summarization-based memory.
+-  Custom memory.

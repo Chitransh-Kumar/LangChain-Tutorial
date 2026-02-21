@@ -18,6 +18,7 @@ This is the most common form of runnable. It is the simplest linear form of form
 
 ```
 from langchain_core.runnables import RunnableSequence
+chain= RunnableSequence(prompt1, model, parser, prompt2, model, parser)
 ```
 
 Alternative way:
@@ -84,7 +85,9 @@ This is used to check for conditions. If one condition is True, then implement t
 **Syntax**:
 
 (condition1, branch1),
+
 (condition2, branch2),
+
 (default branch)
 
 ```
